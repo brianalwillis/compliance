@@ -1,1 +1,26 @@
-test
+<h1 = align=center>SIMULATED <code>SOC 2</code> READINESS ASSESSMENT</h1>
+
+### *Assessment Type: `Type I`*</br> *Assessment Date: `2025-08-06`*</br> *Auditor: `Briana Willis`*</br> *Client: `[Company Name]`*</br> *Scope: `Systems impacting customer data for the client's SaaS platform`*
+
+## `PURPOSE` OF THE READINESS ASSESSMENT
+
+### This `SOC 2 Readiness Assessment` was conducted to evaluate `[Client Company]`'s preparedness for a `SOC 2 Type I` audit and to identify gaps in the design and documentation of controls aligned with the `AICPA Trust Services Criteria`:
+
+### • *Security (Required)</br>• Confidentiality</br>• Processing Integrity</br>• Availability</br>• Privacy*
+
+### The `primary goal` is to ensure the organization has the appropriate `policies`, `procedures`, and `controls` in place and operating effectively *`as of a point in time`*.
+
+## `METHODOLOGY`
+
+### The `readiness assessment` consisted of:
+### • *`Reviewing` existing security policies and procedures</br>• `Interviewing` key personnel across IT, HR, DevOps, and management</br>• `Evaluating` current technical and administrative controls</br>• `Mapping` current controls to TSC</br>• `Identifying` control gaps or missing documentation</br>• `Providing` actionable remediation recommendations*
+
+## `KEY OBSERVATIONS` AND `CONTROL GAP` SUMMARY
+
+| *Trust Services Criteria*           | *Observation*                                                                                 | *Status*      | *Recommended Action*                                                                          | 
+|:------------------------------------|:----------------------------------------------------------------------------------------------|:--------------|:----------------------------------------------------------------------------------------------|
+| *`CC1.2 (Control Environment)`*     | Roles and responsibilities are defined but not formally documented or approved                | *`Not Ready`* | Formalize and approve an organizational chart and job descriptions for key roles              |
+| *`CC5.3 (Access Control)`*          | MFA is enforced for VPN and cloud apps, but not for privileged local accounts                 | *`Partial`*   | Enforce MFA on local admin accounts or remove them where not necessary                        |
+| *`CC6.6 (System Changes)`*          | Code change management is documented and tracked in GitHub, but lacks formal review sign-offs | *`Partial`*   | Implement a formal peer-review approval workflow in GitHub pull requests                      |
+| *`CC7.2 (Security Monitoring)`*     | No SIEM solution in place for log correlation and alerting                                    | *`Not Ready`* | Deploy a basic SIEM solution (e.g., Microsoft Sentinel or Splunk) to monitor critical systems |
+| *`CC9.2 (Disposal of Information)`* | No documented procedure for secure data disposal                                              | *`Not Ready`* | Draft and implement a formal data retention and disposal policy                               |
