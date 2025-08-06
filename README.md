@@ -10,7 +10,7 @@
 
 ### *This `SOC 2 Readiness Assessment` was conducted to evaluate `[Client Company]`'s preparedness for a `SOC 2 Type I` audit and to identify gaps in the design and documentation of controls aligned with the `AICPA Trust Services Criteria`:*
 
-### • *Security (Required)</br>• Confidentiality</br>• Processing Integrity</br>• Availability</br>• Privacy*
+### • *`Security` (Required)</br>• `Confidentiality`</br>• Processing Integrity</br>• `Availability`</br>• Privacy*
 
 ### The `primary goal` is to ensure the organization has the appropriate `policies`, `procedures`, and `controls` in place and operating effectively *`as of a point in time`*.
 
