@@ -1,5 +1,9 @@
 <h1 = align=center>SIMULATED <code>SOC 2</code> READINESS ASSESSMENT</h1>
 
+<p = align=center>
+<img width="768" height="300" alt="Process-SOC-2-Readiness-768x300" src="https://github.com/user-attachments/assets/f5b41b31-999f-49a5-820c-58ef00c96a60" />
+</p>
+
 ### *Assessment Type: `Type I`*</br> *Assessment Date: `2025-08-06`*</br> *Auditor: `Briana Willis`*</br> *Client: `[Company Name]`*</br> *Scope: `Systems impacting customer data for the client's SaaS platform`*
 
 ## `PURPOSE` OF THE READINESS ASSESSMENT
@@ -25,7 +29,11 @@
 | *`CC7.2 (Security Monitoring)`*     | No SIEM solution in place for log correlation and alerting                                    | *`Not Ready`* | Deploy a basic SIEM solution (e.g., Microsoft Sentinel or Splunk) to monitor critical systems |
 | *`CC9.2 (Disposal of Information)`* | No documented procedure for secure data disposal                                              | *`Not Ready`* | Draft and implement a formal data retention and disposal policy                               |
 
-## `REMEDIATION ROADMAP` (60-90 Days)
+<p = align=center>
+<img width="610" height="362" alt="SOC-2-Common-Criteria-CC-Series_20(1)" src="https://github.com/user-attachments/assets/b7d07173-ff04-4496-8830-93bc32e6c546" />
+</p>
+
+## `REMEDIATION ROADMAP` *(60-90 DAYS)*
 
 | *Timeline*    | *Remediation Task* | 
 |:--------------|:---------------------------------------------------------|
@@ -37,13 +45,13 @@
 
 ## CURRENT `READINESS SCORE`
 
-| *TSC Category*           | *Readiness Level*   | 
-|:-------------------------|:--------------------|
-| *`Security`*             | `70%`               | 
-| *`Availability`*         | `60%`               | 
-| *`Confidentiality`*      | `55%`               | 
-| *`Processing Integrity`* | `N/A`               | 
-| *`Privacy`*              | `N/A`               | 
+| *TSC Category*           | *Readiness Level*     | 
+|:-------------------------|:----------------------|
+| *`Security`*             | *`70%`*               | 
+| *`Availability`*         | *`60%`*               | 
+| *`Confidentiality`*      | *`55%`*               | 
+| *`Processing Integrity`* | *`N/A`*               | 
+| *`Privacy`*              | *`N/A`*               | 
 
 ## `CONCLUSION`
 
