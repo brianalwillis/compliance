@@ -35,7 +35,7 @@
 | *`Week 7-8`*  | Update development SOPs to include code review approvals | 
 | *`Week 9-10`* | Conduct internal pre-audit testing and walkthroughs      | 
 
-## CURRENT `READINESS SCORE` (Informal Estimate)
+## CURRENT `READINESS SCORE`
 
 | *TSC Category*           | *Readiness Level*   | 
 |:-------------------------|:--------------------|
