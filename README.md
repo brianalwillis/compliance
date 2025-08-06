@@ -1,7 +1,7 @@
 <h1 = align=center>SIMULATED <code>SOC 2</code> READINESS ASSESSMENT</h1>
 
 <p = align=center>
-<img width="768" height="300" alt="Process-SOC-2-Readiness-768x300" src="https://github.com/user-attachments/assets/f5b41b31-999f-49a5-820c-58ef00c96a60" />
+<img width="950" height="560" alt="Strategic-Assessment" src="https://github.com/user-attachments/assets/2bd24a43-ec5d-4705-869a-68e9dd7f7d1e" />
 </p>
 
 ### *Assessment Type: `Type I`*</br> *Assessment Date: `2025-08-06`*</br> *Auditor: `Briana Willis`*</br> *Client: `[Company Name]`*</br> *Scope: `Systems impacting customer data for the client's SaaS platform`*
