@@ -4,7 +4,7 @@
 
 ## `PURPOSE` OF THE READINESS ASSESSMENT
 
-### This `SOC 2 Readiness Assessment` was conducted to evaluate `[Client Company]`'s preparedness for a `SOC 2 Type I` audit and to identify gaps in the design and documentation of controls aligned with the `AICPA Trust Services Criteria`:
+### *This `SOC 2 Readiness Assessment` was conducted to evaluate `[Client Company]`'s preparedness for a `SOC 2 Type I` audit and to identify gaps in the design and documentation of controls aligned with the `AICPA Trust Services Criteria`:*
 
 ### • *Security (Required)</br>• Confidentiality</br>• Processing Integrity</br>• Availability</br>• Privacy*
 
@@ -24,3 +24,37 @@
 | *`CC6.6 (System Changes)`*          | Code change management is documented and tracked in GitHub, but lacks formal review sign-offs | *`Partial`*   | Implement a formal peer-review approval workflow in GitHub pull requests                      |
 | *`CC7.2 (Security Monitoring)`*     | No SIEM solution in place for log correlation and alerting                                    | *`Not Ready`* | Deploy a basic SIEM solution (e.g., Microsoft Sentinel or Splunk) to monitor critical systems |
 | *`CC9.2 (Disposal of Information)`* | No documented procedure for secure data disposal                                              | *`Not Ready`* | Draft and implement a formal data retention and disposal policy                               |
+
+## `REMEDIATION ROADMAP` (60-90 Days)
+
+| *Timeline*    | *Remediation Task* | 
+|:--------------|:---------------------------------------------------------|
+| *`Week 1-2`*  | Finalize control documentation for CC1.2, CC9.2          | 
+| *`Week 3-4`*  | 	Deploy MFA on all privileged accounts                  | 
+| *`Week 5-6`*  | Configure SIEM for basic log ingestion and alerts        | 
+| *`Week 7-8`*  | Update development SOPs to include code review approvals | 
+| *`Week 9-10`* | Conduct internal pre-audit testing and walkthroughs      | 
+
+## CURRENT `READINESS SCORE` (Informal Estimate)
+
+| *TSC Category*           | *Readiness Level*   | 
+|:-------------------------|:--------------------|
+| *`Security`*             | `70%`               | 
+| *`Availability`*         | `60%`               | 
+| *`Confidentiality`*      | `55%`               | 
+| *`Processing Integrity`* | `N/A`               | 
+| *`Privacy`*              | `N/A`               | 
+
+## `CONCLUSION`
+
+### *`[Client Company]`'s has a foundational set of controls in place, especially around `user access`, `cloud security`, and application `change management`.* 
+
+### *However, gaps in `documentation`, `logging`, `monitoring`, and formal `review processes` will need to be addressed before undergoing a successful `SOC 2 Type I` audit.* 
+
+### *A focused `remediation effort` over the next `60–90 days` is recommended to close identified gaps and align with `SOC 2 audit` requirements.*
+
+---
+
+***Auditor:*** *`Briana Willis`*  
+***Date:*** *`2025-08-06`*  
+***Time:*** *`18:53 UTC`*
